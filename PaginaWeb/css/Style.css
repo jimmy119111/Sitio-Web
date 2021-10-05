@@ -1,0 +1,139 @@
+
+html{
+    font-size: 62.5%; /*1 Rem = 10px */
+}
+
+
+h1{
+    color: red;
+    font-size: 5rem; /* tamaño de texto  */
+    text-align: center; /* alineacion en pagina */
+    font-family: 'Urbanist';
+
+}
+
+h2{
+    font-size: 2rem;
+    text-align:center;
+
+}
+
+.Servicios{
+    color: rgb(1, 9, 128);
+}
+
+nav{
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer{
+    color: rgb(9, 7, 110);
+    font-size: 2rem;
+    text-align: center;
+}
+  
+.Nav-1{
+    background-color: orangered;
+
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegador a{
+    
+    padding: 1rem 1rem 1rem 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.contacto{
+
+    background-color: rgb(114, 29, 29);
+    font-size: 2rem;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    
+}
+
+.n-p{
+    font-size: 2.5rem;
+}
+
+.n-p2{
+    font-size: 2rem;
+}
+
+
+.p-1{
+    font-size: 3rem;
+    color: blueviolet;
+}
+.p-2{
+    font-size: 3rem;
+    display: flex;
+}
+
+.p-u1{
+    font-size: 3rem;
+}
+
+.scroll{
+
+    display: flex;
+
+    max-width: 700px;
+    height: 500px;
+    width: 100%;
+     overflow: scroll;
+     scroll-snap-type: x mandatory;
+
+    margin: auto;
+}
+
+.scroll img{
+    width: 100%;
+    
+    scroll-snap-align: center;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 5px;
+
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 5px;
+
+
+}
+
+.p-servicio{
+
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.cuerpo::-webkit-scrollbar{
+    width: 10px;
+}
+
+.cuerpo::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}
+
+.cuerpo{
+    background-color: #2424ed;
+}
